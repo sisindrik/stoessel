@@ -1,19 +1,17 @@
 import React from "react";
 import Feeds from "./Feeds";
 import Post from "./Post";
-import Images from"./Images";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-export default function App16() {
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+export default function App15() {
   return (
     <div>
-      <Router>
+      <BrowserRouter>
         <Link to="/">Feeds</Link> | <Link to="/post">Post</Link>
         <Routes>
-            <Route path="/" index element={<Feeds/>}></Route>
             <Route path="/post" element={<Post/>}></Route>
-            <Route path="/Images" element={<Images/>}></Route>
+            <Route path="/" index element={<Feeds/>}></Route>
         </Routes>
-      </Router>
+      </BrowserRouter>
     </div>
   );
 }
