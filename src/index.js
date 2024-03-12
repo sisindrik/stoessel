@@ -50,14 +50,43 @@
 // );
 
 
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App13a from "./App13a";
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+// import App13a from "./App13a";
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <>
+//     <App13a />
+//   </>
+// );
+
+
+
+// import React from "react";
+// import ReactDOM from "react-dom/client";
+// import "./index.css";
+// import App15 from "./App15";
+// import App15m from "./App15m";
+
+// const root = ReactDOM.createRoot(document.getElementById("root"));
+// root.render(
+//   <>
+//     <App15m />
+//   </>
+// );
+
+
+
+import React from 'react';
+import ReactDOM from 'react-dom/client'; // Import for React 18+
+import './index.css';
+import App19m from './App19m'; // Assuming App19m.js in the same directory
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <>
-    <App13a />
-  </>
+  <React.StrictMode>  
+    <App19m />
+  </React.StrictMode>
 );

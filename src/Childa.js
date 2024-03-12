@@ -1,7 +1,7 @@
 import {UserContext} from "./App13a"
 import { useContext } from "react";
 export default function Childa() {
-  const {user,setUser} = useContext(UserContext);
+const {user,setUser} = useContext(UserContext);
 const nameHandle = () => {
     setUser("Cathy");
   };
