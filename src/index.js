@@ -83,10 +83,13 @@ import React from 'react';
 import ReactDOM from 'react-dom/client'; // Import for React 18+
 import './index.css';
 import App19m from './App19m'; // Assuming App19m.js in the same directory
+import App20 from './App20';
+import App21 from './App21';
+import App24 from './App24';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>  
-    <App19m />
+    <App24 />
   </React.StrictMode>
 );

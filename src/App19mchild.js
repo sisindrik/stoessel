@@ -12,7 +12,8 @@
 import React from 'react'
 export default function App19mchild(props) {
   return (
-    <div style={{backgroundColor:'silver'}}>
+    <div style={{backgroundColor:'yellow'}}>    
+        <p style={{background:'grey'}}>live live</p>
         {props.children}
     </div>
   )
